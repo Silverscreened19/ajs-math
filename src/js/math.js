@@ -9,8 +9,7 @@ export default class MathClass extends Character {
   get attack() {
     let attack = +(this.setAttack - (this.setAttack * ((this.distance - 1) / 10))).toFixed();
     if (this.setStoned) {
-      attack = +(attack - Math.log2(this.distance) * 5).toFixed();
-
+      attack -= (Math.log2(this.distance) * 5).toFixed();
       if (attack < 0) {
         return 0;
       }
