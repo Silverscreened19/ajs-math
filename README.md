@@ -1,5 +1,8 @@
 # Домашнее задание к лекции «`ArrayBuffer`»
 
+[![Build status](https://ci.appveyor.com/api/projects/status/bii1cub3v43kla2f?svg=true)](https://ci.appveyor.com/project/Silverscreened19/ajs-math)
+
+
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
 **Важно**: код должен проходить ESLint без ошибок.
